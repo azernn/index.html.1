@@ -14,7 +14,7 @@ body{
     position: relative;
     width: 100%;
     max-width: 1000px;
-    max-height: 760px;
+    min-height: 900px;
     margin: 50px;
     background-color:rgba(151, 58, 74, 0.842);
     display: grid;
@@ -27,11 +27,11 @@ body{
     position: relative;
     background-color:rgba(151, 58, 74, 0.842);
     padding: 40px;
-    max-height: 760px;
+    min-height: 900px;
 
     
 }
-.haqqinda{
+.aboout{
     padding-top: 40px;
     position: relative;
     display: flex;
@@ -40,7 +40,7 @@ body{
     padding-bottom: 20px;
     border-bottom:1px solid rgba(253, 115, 138, 0.705);
 }
-.haqqinda h2{
+.about h2{
     color: bisque;
     font-size: 1.6em;
     margin-top: 20px;
@@ -48,133 +48,149 @@ body{
     text-align: center;
     font-weight: 600;
     font-family: 'Gruppo', cursive;
-
-
 }
-
 .title{
-    color: bisque;
-    font-weight: 600;
+color: bisque;
+font-weight: 600;
 letter-spacing: 1px;
 margin-bottom: 10px; 
  font-family: 'Gruppo', cursive;
-
-
 }
 .elaqe, .tehsil{
-    padding-top: 40px;
+padding-top: 40px;
 }
 .elaqe ul {
-    position: relative;
+position: relative;
 }
 .elaqe ul li{
-    position: relative;
-    list-style: none;
-    margin: 10px,0px;
+position: relative;
+list-style: none;
+margin: 10px,0px;
 }
 .icon{
-    display: inline-block;
-    width: 30px;
-    font-size: 18px;
-    color:  rgba(88, 26, 48, 0.836) ;}
-    .soz{
-        color: rgb(243, 127, 165);
-        font-weight: 500;
-        margin-bottom:10px;
-    }
+display: inline-block;
+width: 30px;
+font-size: 18px;
+color:  rgba(88, 26, 48, 0.836) ;}
+.soz{
+color: rgb(243, 127, 165);
+font-weight: 500;
+margin-bottom:10px;
+font-family: 'Lexend', sans-serif;
+}
 .tehsil li{
-    margin-bottom: 16px;
+margin-bottom: 16px;
 }
 .tehsil h5{
 color:  rgba(41, 4, 17, 0.836);
-font-size: 16.5px ;
+font-size: 15px ;
+font-family: 'Orbitron', sans-serif;
 }
 .tehsil h4{
-    color:  rgb(243, 127, 165);
-   font-size: 17px;
-   font-family: 'Comfortaa', cursive;   
+color:  rgb(243, 127, 165);
+font-size: 23.6px;
+font-family: 'Alegreya Sans SC', sans-serif; 
 }
 .percent{
-    position: relative;
-    width: 100%;
-    height: 6px;
-    background-color: palevioletred;
-    margin-top: 5px;
+position: relative;
+width: 100%;
+height: 6px;
+background-color: palevioletred;
+margin-top: 5px;
 }
 .percent div{
-    position: absolute
-    top 0;
-    left: 0;
-    height: 100%;
-    background-color: rgb(177, 54, 95);
+position: absolute
+top 0;
+left: 0;
+height: 100%;
+background-color: rgb(177, 54, 95);
+}
+.sag{
+padding-left: 10px;
 }
  .tt{
-    color: rgb(85, 23, 33);
-    font-size: 19px;
-    padding-left: 10px;   
-    font-family: 'Comfortaa', cursive;   
+color: rgb(85, 23, 33);
+font-size: 19px;
+   
+font-family: 'Comfortaa', cursive;   
 }
 .abscills h2{
 color: bisque;
 font-weight: 200;
 letter-spacing: 1px;
-margin-bottom: 10px; 
+padding-top: 15px; 
+margin-bottom: 15px;
+margin-top: 5px;
 display: flex;
-padding-bottom: 20px;
 justify-content: center;
 align-items: center;
- font-family: 'Gruppo', cursive;
- 
+font-family: 'Gruppo', cursive;
+border-top:1px solid rgba(253, 115, 138, 0.705);
 }
 .abscills ul{
-    margin-left: 20px;
-    color: rgb(85, 23, 33); 
+margin-left: 20px;
+color: rgb(85, 23, 33); 
 }
-
 .abscills .box h4 .percent{
-    position: absolute;
-    width: 100%;
+position: absolute;
+width: 100%;
 }
 .soz2{
 list-style: none;
 padding-left: 10px;
- color: rgb(85, 23, 33);
+color: rgb(85, 23, 33);
 font-weight: 500;
- margin-bottom:10px;
- 
+margin-bottom:10px;
 }
 .percent2{
-    position: relative;
-    width: 50%;
-    height: 6px;
-    background-color: palevioletred;
-    margin-top: 5px;
+position: relative;
+width: 50%;
+height: 6px;
+background-color: palevioletred;
+margin-top: 5px;
 }
 .percent2 div{
-    position: absolute
-    top 0;
-    left: 0;
-    height: 100%;
-    background-color: rgb(177, 54, 95);
+position: absolute
+top 0;
+left: 0;
+height: 100%;
+background-color: rgb(177, 54, 95);
 }
 .abint h2{
 color: bisque;
 font-weight: 200;
 letter-spacing: 1px;
-margin-bottom: 14px; 
-margin-top: 20px;
 display: flex;
-padding-bottom: 20px;
 justify-content: center;
 align-items: center;
 margin-top: 23px;
- font-family: 'Gruppo', cursive;
- border-top:1px solid rgba(253, 115, 138, 0.705);
+padding-top: 15px;
+margin-bottom: 30px;
+font-family: 'Gruppo', cursive;
+border-top:1px solid rgba(253, 115, 138, 0.705);
 } 
 .abint ul {
 display: grid;
 grid-template-columns: repeat(4,1fr);
 color: rgb(85, 23, 33) ;
-padding: 10px;
-margin-left: 20px;
+margin-left: 35px;
+}
+.circle{
+    display: flex;
+    margin-top: 10px;
+}
+.circle div{
+    background-color: pink;
+    margin: 6px;
+    border-radius: 50%;
+}
+.circle> .circle1{
+background-color:  rgb(85, 23, 33);
+margin: 6px;
+padding: 6px;
+border-radius: 50%;
+}
+.word{
+    font-family: 'Gruppo', cursive;
+    font-size: 24px;
 }
